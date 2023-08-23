@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form h2{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+    height: 550px;
+    gap: 1rem;
+    padding: 2rem;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    color: rgb(0, 0, 0);
+   
+
+}
+#input-group{
+ display: flex;
+ flex-direction: column;
+}
+
+input , textarea{
+    background-color: aliceblue;
+    padding: 10px 20px;
+    margin-bottom: 25px; /* Da espacios arriba y abajo */
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+
+}
+/* Efecto para el placeholder */
+::placeholder{
+    color: blueviolet;
+    font-size: 15px;
+}
+/* efecto al estar posicionado en un input */
+:focus{
+    outline: 2px solid aqua;
+}
+
+#btn{
+    background-color: blanchedalmond;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: aqua;
+
+}
+
+#confirmation-box {
+    display: none;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
